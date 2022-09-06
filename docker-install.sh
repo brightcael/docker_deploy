@@ -18,7 +18,7 @@ sleep 3
 mkdir /etc/docker
 mv ./daemon.json /etc/docker
 mkdir ~/.docker
-mv config.json
+mv config.json ~/.docker/
 
 sudo systemctl daemon-reload
 sudo systemctl restart docker
