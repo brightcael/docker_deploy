@@ -1,0 +1,8 @@
+{
+	"auths": {
+		"registry.cn-hangzhou.aliyuncs.com": {
+			"auth": "cWhnYW95aUBnbWFpbC5jb206Z2FveUBhbGl5dW4="
+		}
+	},
+	"experimental": "enabled"
+}

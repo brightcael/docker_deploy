@@ -1,0 +1,17 @@
+{
+  "registry-mirrors": [
+    "https://3vttg2ol.mirror.aliyuncs.com"
+  ],
+  "dns" : [
+    "223.5.5.5",
+    "223.6.6.6",
+    "8.8.8.8"
+  ],
+  "exec-opts": ["native.cgroupdriver=systemd"],
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "100m"
+  },
+  "storage-driver": "overlay2",
+  "experimental": true
+}
