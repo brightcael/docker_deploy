@@ -40,6 +40,7 @@ kubectl create secret docker-registry linklab-aliyun --docker-server=registry.cn
 
 # helm配置
 sudo cp helm /usr/local/bin/helm
+chomd a+x /usr/local/bin/helm
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm repo add stable https://charts.helm.sh/stable     
 helm repo add emqx https://repos.emqx.io/charts
