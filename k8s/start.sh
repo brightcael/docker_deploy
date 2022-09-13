@@ -38,6 +38,9 @@ kubectl create secret docker-registry linklab-aliyun --docker-server=registry.cn
 # nginx ingress 配置
 # kubectl apply -f ingress.yaml
 
+# taint设置
+kubectl taint nodes --all node.kubernetes.io/not-ready-
+
 # helm配置
 sudo cp helm /usr/local/bin/helm
 chomd a+x /usr/local/bin/helm
